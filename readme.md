@@ -1,6 +1,7 @@
 
 # Projeto NLW SETUP ( primeira NLW de 2023 )
-## Projeto Elaborado pela [Rocketseat](https://www.rocketseat.com.br/)
+## Projeto  Habits Elaborado pela [Rocketseat](https://www.rocketseat.com.br/)
+### A Aplicação [Habits](https://www.rocketseat.com.br/) proporciona uma triagem de habitos com registros diarios 
 ## Tecnologias utilizadas:
 - HTML
   - HTML Semântico
