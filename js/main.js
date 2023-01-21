@@ -9,9 +9,6 @@ form.addEventListener('change',save)
 function add() {
 
    const today = new Date().toLocaleDateString('pt-br').slice(0,-5)
-
-
-    let today = `${d}/01`
     
     const dayExists =  nlwSetup.dayExists(today)
     if(dayExists ){
