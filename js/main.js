@@ -8,9 +8,8 @@ form.addEventListener('change',save)
 
 function add() {
 
-  // const today = new Date().toLocaleDateString('pt-br').slice(0,-5)
+   const today = new Date().toLocaleDateString('pt-br').slice(0,-5)
 
-  for (let d = 11; d <=30;++d){
 
     let today = `${d}/01`
     
@@ -22,7 +21,7 @@ function add() {
       // alert(`${today} adicionaod com exito ✅`)
     }
   }
-}
+
 
 function save(){
   localStorage.setItem('NLWSetup@habist',JSON.stringify(nlwSetup.data))
